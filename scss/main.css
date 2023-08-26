@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.57);
+}
+
+header {
+  padding: 0 10px 0 10px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--main-gradient, linear-gradient(180deg, #232323 0%, #151515 100%));
+  box-shadow: 0px 1px 0px 0px #2D2D2D;
+}
+
+header .left {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+  gap: 40px;
+}
+
+header .left #logo {
+  max-width: 160px;
+  max-height: 41px;
+}
+
+header .left #left {
+  display: flex;
+  gap: 40px;
+  height: 100%;
+}
+
+header .left #left li {
+  height: 100%;
+}
+
+header .left #left li a {
+  display: flex;
+  padding: 0 8px 0 8px;
+  height: 100%;
+  align-items: center;
+}
+
+header .left #left #active {
+  height: 100%;
+  background: #22B14C;
+}
+
+header .left #left #active a {
+  display: flex;
+  height: 98%;
+  color: #fff;
+  align-items: center;
+  margin-top: 2px;
+  background: var(--main-gradient, linear-gradient(180deg, #232323 0%, #151515 100%));
+  box-shadow: 0px 13px 33px 0px rgba(0, 0, 0, 0.3) inset;
+}
+
+header .right {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+  gap: 30px;
+}
+
+header .right #right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header .right #right li {
+  display: flex;
+  border-radius: 3px;
+  background: var(--header-right-button-back, #151515);
+  height: 44px;
+  align-items: center;
+  width: 44px;
+  justify-content: center;
+}
+
+header .right .money_nickname {
+  display: flex;
+  padding: 7px;
+  border-radius: 3px;
+  background: var(--header-right-button-back, #151515);
+}
+
+header .right .money_nickname .wrap {
+  display: flex;
+  gap: 1px;
+  background: #292929;
+}
+
+header .right .money_nickname .wrap p {
+  background: var(--header-right-button-back, #151515);
+  color: #FFF;
+  padding: 6px;
+}
+
+header .right #withdraw {
+  color: #FFF;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2.796px;
+  background: var(--green-gradient, linear-gradient(180deg, #54B052 0%, #287226 100%));
+}
+
+header .right #language {
+  border-radius: 3px;
+  border: 1px solid #484848;
+  background: #2F2F2F;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.55);
+}
+
+header .right .dropbtn {
+  background: #2F2F2F;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.55);
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid #484848;
+}
+
+header .right .dropdown-content {
+  display: none;
+  border-radius: 3px;
+  border: 1px solid #484848;
+  border-top: 0px;
+  position: absolute;
+  background: #2F2F2F;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.55);
+  z-index: 1;
+  margin-top: -7px;
+}
+
+header .right .dropdown-content a {
+  padding: 8px;
+  display: block;
+}
+
+header .right .dropdown-content a:hover {
+  background: var(--green-gradient, linear-gradient(180deg, #54B052 0%, #287226 100%));
+}
+
+header .right .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header .right .sign-out {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background: url(../assets/sign-out-b.svg);
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=main.css.map */
